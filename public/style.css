@@ -1,0 +1,16 @@
+.prg1{
+    background-color: aquamarine;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+.prg1:hover{
+    background-color: rgb(37, 0, 245);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.prg2{
+    background-color:red;
+}
+body{
+    font-family: sans-serif;
+}
