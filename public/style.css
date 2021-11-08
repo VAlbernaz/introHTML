@@ -2,15 +2,41 @@
     background-color: aquamarine;
     font-family:'Courier New', Courier, monospace;
     font-size: 24px;
+    margin-left: 3cm;
+    margin-right: 3cm;
 }
 .prg1:hover{
     background-color: rgb(37, 0, 245);
     font-family:'Courier New', Courier, monospace;
     font-size: 30px;
+    margin-left: 3cm;
+    margin-right: 3cm;
 }
 .prg2{
     background-color:red;
+    padding: 25px;
+    margin-left: 3cm;
+    margin-right: 3cm;
+
+
 }
 body{
     font-family: sans-serif;
+}
+img{
+    width: 600px;
+    height: 500px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 20%;
+    margin-left: auto;
+}
+
+.legendas{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    position: relative;
+   
 }

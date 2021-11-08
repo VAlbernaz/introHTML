@@ -8,4 +8,7 @@ app.get('/', function(req,response){
    response.sendFile(path.join(__dirname, '/public.index.html'))
 })
 
-app.listen(3000)
+const port=3000
+app.listen(port, function(){
+   console.log("Listenning on port: ",port)
+})  
