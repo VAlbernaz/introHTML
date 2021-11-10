@@ -1,0 +1,142 @@
+body.index{
+    background-image: url("https://c.tenor.com/29Ok5pc0ivAAAAAd/gatinho-gato.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+/* body.sobre{
+    background-image: url("https://acegif.com/wp-content/gifs/happy-cat-9.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+} */
+.nav{
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.tit_pagina{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 16px;
+    padding-left: 50px;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+
+}
+
+.link_pagina{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 16px;
+    padding-right: 30px;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    padding: 30px;
+}
+
+.link_pagina:hover{
+    background-color:white;
+    color: black;
+    animation-delay: 2ms;
+}
+
+.intro{
+    background-color:aliceblue;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    padding: 25px;
+    margin-left: 3cm;
+    margin-right: 3cm;
+
+}
+body{
+    font-family: sans-serif;
+}
+img{
+    margin-top: 150px;
+    width: 600px;
+    height: 500px;
+    border-style: solid;
+    border-color:darkgrey;
+    border-radius: 5%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container{
+    margin-top: 150px;
+    width: 90%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.containerSobre{
+    margin-top: 150px;
+    width: 90%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+
+}
+.containerGarreia{
+    margin-top: 150px;
+    width: 90%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+
+    /*display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+*/
+
+}
+img.garreia{
+    width: 600px;
+    height: 500px;
+    border-style: solid;
+    
+    grid-template-columns: 200px 200px 200px;
+    border-color: brown;
+    border-radius: 5%;
+    margin-left: auto;
+    
+}
+.title{
+    text-align: center;
+}
