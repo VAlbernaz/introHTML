@@ -6,5 +6,5 @@ npm install --save express path mysql2 dotenv ////(dependencia de desenvolviment
 npm start
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Bootstrap 5 -> biblioteca html
+Bootstrap 5 -> biblioteca css
 materializecss -> biblioteca css
