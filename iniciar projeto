@@ -1,6 +1,7 @@
 npm init 
 npm install --save nodemon ////(dependencias gerais)
 npm install --save express path mysql2 dotenv ////(dependencia de desenvolvimento)
+npm install --save multer ////(dependencia para imagens)
 
 //iniciar servidor
 npm start
